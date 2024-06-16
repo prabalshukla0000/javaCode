@@ -30,8 +30,8 @@ public class Main{
     public static void main(String[]args){
         int[] arr={1,2,3,45,67,89,99};
         int target=99;
-        int D=orderagnosticBS(arr,target);
-        System.out.print(D);
+        int E=orderagnosticBS(arr,target);
+        System.out.print(E);
     }
     static int orderagnosticBS(int[] arr,int target){
         int start=0;
